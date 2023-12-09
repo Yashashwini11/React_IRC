@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="C:\Users\Yashashwini\Desktop\HTML\Registeration.html">REGISTERATION </a></li>
+            <li><a href="C:\Users\Yashashwini\Desktop\HTML\login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+        <form class="container" onsubmit="submitForm() ">
+            <h3>REGISTERATION FORM</h3>
+        <input type="text" class="input" name="Username" id="un" placeholder=" Name">
+        <input type="email" class="input" name="email" id="" placeholder="Email">
+        <input type="password" class="input" id="p1" placeholder="Password">
+        <input type="password" class="input" id="p2" placeholder="Confirm Password">
+        <input type="submit" class="button" name="submit">
+    </form>
+</body>
+<script>
+    function submitForm()
+    {
+        let x=document.getElementById("un").value;
+        alert("Congratulations!"+x+" you are registered successfully" );
+    }
+</script>
+</html>
