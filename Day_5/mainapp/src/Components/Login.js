@@ -47,7 +47,7 @@ function Login() {
             <span>Login</span>
           </button>
         </Link>
-        <p>
+         <p>
           Don't have an account? <Link to="/signup">Sign up</Link>
         </p>
 
