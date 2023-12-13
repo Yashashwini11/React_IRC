@@ -9,6 +9,8 @@ import "./Assets/CSS/Home.css";
 import "./Assets/CSS/login.css";
 import "./Assets/CSS/Signup.css";
 import Signup from "./Components/signup";
+import Fund from './Components/Fund';
+import "./Assets/CSS/Fund.css";
 function App() {
     return (
       <div className="app-container">
@@ -19,6 +21,7 @@ function App() {
           <Route path="/signup" element={<Signup/>}/>
         </Routes>
         <img src={img1} alt="donate" />
+        <Fund/>
       </div>
     );
   }
