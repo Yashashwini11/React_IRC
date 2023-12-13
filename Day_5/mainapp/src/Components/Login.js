@@ -47,6 +47,10 @@ function Login() {
             <span>Login</span>
           </button>
         </Link>
+        <p>
+          Don't have an account? <Link to="/signup">Sign up</Link>
+        </p>
+
       </form>
     </div>
   );
