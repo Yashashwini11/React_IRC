@@ -105,7 +105,7 @@ const Home = () => {
                     </Grid>
                     <Grid item xs={3}>
                         <Item>
-                            <Card sx={{ minWidth: 275,backgroundColor:'purple'}}>
+                            <Card sx={{ minWidth: 275,backgroundolor:'purple'}}>
                                 <CardContent>
                                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                         Word of the Day
