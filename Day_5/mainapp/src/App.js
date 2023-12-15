@@ -9,8 +9,9 @@ import "./Assets/CSS/Home.css";
 import "./Assets/CSS/login.css";
 import "./Assets/CSS/Signup.css";
 import Signup from "./Components/signup";
-import Fund from './Components/Fund';
-import "./Assets/CSS/Fund.css";
+import Fund from "./Components/Fund";
+import './Assets/CSS/Fund.css'
+import Cards from './Components/Cards';
 function App() {
     return (
       <div className="app-container">
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/signup" element={<Signup/>}/>
+          <Route path="/fund" element={<Cards/>}/>
         </Routes>
         <img src={img1} alt="donate" />
         <Fund/>
