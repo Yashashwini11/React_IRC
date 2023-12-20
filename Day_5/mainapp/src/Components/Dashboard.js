@@ -6,6 +6,8 @@ import women from '../Assets/Images/women.jpg';
 import poverty from '../Assets/Images/poverty.jpg';
 import medical from '../Assets/Images/medical.webp';
 import nonprofit from '../Assets/Images/nprofit.jpg';
+import { CircleUser } from 'lucide-react';
+
 
 function Dashboard() {
   return (
@@ -28,6 +30,7 @@ function Dashboard() {
             <ul>
               <li className="sample"><a href="#">HopeHarvest</a></li>
               <li><a href="#">USER</a></li>
+              <CircleUser/>
             </ul>
           </nav>
         </div>

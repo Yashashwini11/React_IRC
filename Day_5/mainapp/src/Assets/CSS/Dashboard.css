@@ -63,7 +63,7 @@ a:hover {
 }
 
 .logout {
-  bottom: 4%;
+  bottom: 9%;
   left: 7%;
   border-radius: 0;
   position: fixed;
@@ -95,7 +95,7 @@ a:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   margin: 0 auto;
-  padding: 90px;
+  padding: 40px;
   padding-left: 20%;
   padding-bottom: 40%;
 }
