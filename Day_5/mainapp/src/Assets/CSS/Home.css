@@ -6,6 +6,7 @@ body
     height: 100vh;
     width: 100vw;
     margin: 0;
+    background-color: #f4c4f3;
 }
 img {
     height:100%;
@@ -23,22 +24,22 @@ img {
     font-weight:bold;
   }
  
-.butt
-{
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    display:flex;
-    background-color: #fc67fa;
-}
-.btn
-{
+  .btn
+  {
     align-items: center;
     justify-content: center;
     padding-top: 8%;
     padding-left: 0px;
-}
+  }
+  .butt
+  {
+      border: none;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      display:flex;
+      background-color: #fc67fa;
+  }
 .butt:hover
 {
      background-color: #ff9bfd

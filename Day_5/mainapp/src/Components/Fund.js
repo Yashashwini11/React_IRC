@@ -1,19 +1,17 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Fund() {
     return (
         <>
             <nav className='sidebar'>
                 <ul>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Women</a></li>
-                    <li><a href="#">Poverty</a></li>
-                    <li><a href="#">Orphanage</a></li>
-                    <li><a href="#">Senior citizenship</a></li>
-                    <li><a href="#">Disability</a></li>
-                    <li><a href="#">Hunger</a></li>
-                    <li><a href="#">Heart Transplatation</a></li>
-                    <li><a href='#'></a></li>
+                    <Link to='/dashboard'><li><a href="#">DASHBOARD</a></li></Link>
+                    <li><a href="#">PROBLEMS</a></li>
+                    <li><a href="#">FUNDS</a></li>
+                    <li><a href="#">IN DEMAND</a></li>
+                    <li><a href="#">TOP DONATERS</a></li>
+                    <li><a href="#">BENEFICIARIES</a></li>
+                  
                 </ul>
             </nav>
 
