@@ -30,8 +30,7 @@
     margin: 0;
     padding: 1em;
   }
-  
-  
+
   .sidebar a:hover,
   .sidebar a:focus {
     color: #fff;
@@ -43,4 +42,5 @@
   .sidebar:hover {
     left: 0;
   }  
+
  

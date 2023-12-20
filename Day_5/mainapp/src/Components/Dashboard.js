@@ -10,12 +10,11 @@ import nonprofit from '../Assets/Images/nprofit.jpg';
 function Dashboard() {
   return (
     <>
-      <Link to='/dashboard'>
         <div className='entire'>
 
           <div className='sideapp'>
-            <ul>
-              <li>HOME</li>
+            <ul>.
+              <Link to='/home'><li>HOME</li></Link>
               <li>DONATE MONEY</li>
               <li>START A FUNDRAISER</li>
             </ul>
@@ -38,43 +37,42 @@ function Dashboard() {
             <div className="product">
                 <div className="zoom">
                     <img src={flood} alt="Product Image 1" style={{ height: '190px', width: '190px' }}/>
-                </div>
                 <h2>NATURAL DISASTERS</h2>
+                </div>
             </div>
             <div className="product">
                 <div className="zoom">
                     <img src={education} alt="Product Image 2" style={{ height: '190px', width: '190px' }} />
-                </div>
                 <h2>EDUCATION</h2>
+                </div>
             </div>
             <div className="product">
                 <div className="zoom">
                     <img src={women} alt="Product Image 3" style={{ height: '190px', width: '190px' }} />
-                </div>
                 <h2>WOMEN</h2>
+                </div>
             </div>
             <div className="product">
                 <div className="zoom">
                     <img src={poverty} alt="Product Image 4" style={{ height: '190px', width: '190px' }} />
-                </div>
                 <h2>POVERTY</h2>
+                </div>
             </div>
             <div className="product">
                 <div className="zoom">
                     <img src={medical} alt="Product Image 5" style={{ height: '190px', width: '190px' }} />
-                </div>
                 <h2>MEDICAL CARE</h2>
+                </div>
             </div>
             <div className="product">
                 <div className="zoom">
                     <img src={nonprofit} alt="Product Image 6" style={{ height: '190px', width: '190px' }} />
+                <h2>NON-PROFIT</h2>
                 </div>
-                <h2>NON PROFIT</h2>
             </div>
         </div>
 
         </div>
-      </Link>
     </>
   );
 }

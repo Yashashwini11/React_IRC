@@ -7,6 +7,9 @@ body
     width: 100vw;
     margin: 0;
     background-color: #f4c4f3;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
 }
 img {
     height:100%;
