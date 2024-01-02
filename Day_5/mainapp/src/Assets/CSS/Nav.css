@@ -1,74 +1,66 @@
-
 nav {
-    width:100vw;
-    background: #f4c4f3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: absolute;
-    color: #ffffff;
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: right;
-  }
-  .sample
-  {
-    float: left;
-    padding-left: 3%;
-    font-size: larger;
-  }
-  
-  a {
-    display: block;
-    color:#000000;
-    padding: 14px 30px;
-    text-decoration: none;
-    font-weight: bolder;
-  }
-  
-  a:hover {
-    background-color: #e566ff;
-    color: black;
-  }
- 
-.but{
+  width: 100%;
+  background-color: #ff7afd;
+  position: fixed;
+  height: 8vh;
+  top: 0;
+  right: 0;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navclass {
+  float: right; 
+  margin-left: 20px;
+}
+
+.sample {
+  top: 0;
+  left: 0;
+  position: fixed;
+  font-size: 1.25rem;
+} 
+
+a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+.but {
   background-color: #f532ff;
   border-radius: 100px;
-  box-shadow: rgba(194, 44, 184, 0.2) 0 -25px 18px -14px inset,rgba(249, 154, 230, 0.15) 0 1px 2px,rgba(228, 132, 207, 0.15) 0 2px 4px,rgba(227, 107, 217, 0.15) 0 4px 8px,rgba(175, 44, 187, 0.15) 0 8px 16px,rgba(187, 44, 170, 0.15) 0 16px 32px;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 0.5rem;
-  padding: 8px 14px;
-  text-align: center;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   text-decoration: none;
   align-items: center;
-  font-weight:400;
-  transition: all 250ms;
-  border: 0;
-  font-size: 16px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: box-shadow 250ms, transform 250ms;
 }
 
 .but:hover {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1.35rem 1.375rem, rgba(0, 0, 0, 0.12) 0px -0.3rem 0.75rem,
+    rgba(0, 0, 0, 0.12) 0px 0.1rem 0.3rem, rgba(0, 0, 0, 0.17) 0px 0.3rem 0.325rem,
+    rgba(0, 0, 0, 0.09) 0px -0.15rem 0.25rem;
   transform: scale(1.05) rotate(-1deg);
 }
-.sample{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    font-weight: bolder;
-    letter-spacing: 0.10cm;
+
+@media (max-width: 768px) {
+  ul {
+    justify-content: center;
+
+  }
+
+  li {
+    margin: 10px 0;
+  }
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faKey } from '@fortawesome/free-solid-svg-icons';
@@ -7,6 +8,19 @@ import { faUser, faKey } from '@fortawesome/free-solid-svg-icons';
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
+  const[users,setUser]=useState([])
+  const fetchData=async()=>
+  {
+    try{
+        const res=await getUser()
+        setUser(res.data)
+    }
+    catch(e)
+    {
+      console.log(e)
+    }
+  }
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
