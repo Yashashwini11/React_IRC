@@ -1,10 +1,25 @@
 {
-  "users":
+  "donaters":
   [
     {
       "id":1,
-      "gmail":"yash@gmail.com",
-      "password":"yashu12345"
+      "name":"yashashwini",
+      "amount":"20000"
+    },
+    {
+      "id":2,
+      "name":"yashh",
+      "amount":"2000"
+    },
+    {
+      "id":3,
+      "name":"xxxxx",
+      "amount":"8999"
+    },
+    {
+      "id":4,
+      "name":"aaaaa",
+      "amount":"20000"
     }
   ]
 }

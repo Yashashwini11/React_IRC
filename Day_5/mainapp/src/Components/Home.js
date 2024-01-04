@@ -15,7 +15,7 @@ function Home() {
         Join us in creating a world where kindness echoes and dreams flourish.
 
         <div className='btn'>
-        <Link to="/dashboard"><button className='butt'>DONATE</button></Link>
+        <Link to="/donate"><button className='butt'>DONATE</button></Link>
 
         </div>
         </div>

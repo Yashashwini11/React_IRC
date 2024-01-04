@@ -1,56 +1,54 @@
-body
-{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    overflow-x: hidden;
-    background-color: #f4c4f3;
-  
-    
+body {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f4c4f3;
 }
+
 img {
-    height:100%;
-    width: 100vw;
-    background: #f4c4f3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100vw;
+  background: #f4c4f3;
+  background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);
+  background: linear-gradient(to right, #fc67fa, #f4c4f3);
 }
-  .description {
-    position: absolute;
-    top: 20%; 
-    right: 20%; 
-    color: rgb(0, 0, 0);
-    font-size: 22px;
-    font-weight:bold;
-  }
- 
-  .btn
-  {
-    align-items: center;
-    justify-content: center;
-    padding-top: 8%;
-    padding-left: 0px;
-  }
-  .butt
-  {
-      border: none;
-      border-radius: 20px;
-      padding: 10px 20px;
-      font-size: 16px;
-      display:flex;
-      background-color: #fc67fa;
-  }
-.butt:hover
-{
-     background-color: #ff9bfd
+
+.description {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  padding-top: 8%;
+  padding-left: 0px;
+}
+
+.butt {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  background-color: #fc67fa;
+}
+
+.butt:hover {
+  background-color: #ff9bfd;
 }
 
 .butt {
   appearance: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 40em;
   border-style: none;
   box-shadow: #939393 0 -12px 6px inset;
@@ -58,7 +56,7 @@ img {
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,sans-serif;
+  font-family: -apple-system, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -.24px;
@@ -74,14 +72,25 @@ img {
   touch-action: manipulation;
 }
 
-.butt{
+.butt {
   background-color: #ff29f8;
   box-shadow: #e414ff 0 -6px 8px inset;
   transform: scale(1.125);
 }
+
 .butt:active {
   transform: scale(1.025);
 }
 
-
- 
+@media only screen and (max-width: 700px) {
+  /* Add responsive styles here for screens with a width up to 768 pixels */
+  .description {
+      position: static;
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  .btn {
+      padding-top: 4%;
+  }
+}

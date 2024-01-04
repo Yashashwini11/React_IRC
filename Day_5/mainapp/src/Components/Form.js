@@ -10,10 +10,6 @@ function Form() {
 					<h2>General Infomation</h2>
 					<div class="form-row">
                             <input type="text" name="first_name" id="first_name" class="input-text" placeholder="First Name" required/>
-
-						    {/* <option class="option" value="businessman">Businessman</option>
-						    <option class="option" value="reporter">Reporter</option>
-						    <option class="option" value="secretary">Secretary</option> */}
 						<span class="select-btn">
 						  	<i class="zmdi zmdi-chevron-down"></i>
 						</span>
